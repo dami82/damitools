@@ -1,0 +1,8 @@
+Package: damitools
+Title: Collection of Tools for Bioinformatics and Data Science
+Version: 1.1
+Author: Damiano Fantini <damiano.fantini@gmail.com>
+Description: Collection of tools written for projects related to Data Science, Bioinformatics and Functional Genomics. Functions of this package include tools for visualizing and manipulating different kinds of data.
+Depends: R (>= 3.1.3)
+License: GPL-2
+LazyData: true
