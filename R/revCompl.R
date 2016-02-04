@@ -1,6 +1,6 @@
-revCompl <- function(DNAsequence, rev = TRUE, compl = TRUE) {
-  if (is.character(DNAsequence)){
-    resultVect <- sapply(DNAsequence, (function(seqString){
+revCompl <- function(DNAseq, rev = TRUE, compl = TRUE) {
+  if (is.character(DNAseq)){
+    resultVect <- sapply(DNAseq, (function(seqString){
       mySeq <- toupper(seqString)
       if (rev == TRUE) {
         mySeq <- paste(sapply(1:nchar(mySeq), (function(i){

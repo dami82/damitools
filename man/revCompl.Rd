@@ -10,7 +10,7 @@ Sequence manipulation Tool for Molecular Biology. Retrieves the complementary, r
 revCompl(DNAsequence, rev = TRUE, compl = TRUE)
 }
 \arguments{
-  \item{DNAsequence}{
+  \item{DNAseq}{
 characther string containing the DNA/RNA sequence(s) to be manipulated
 }
   \item{rev}{
